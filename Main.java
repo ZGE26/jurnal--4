@@ -13,6 +13,7 @@ public class Main {
             System.out.println("Memilih Inputan : \n 1. Input Tugas\n 2. Delet Tugas\n 3. Melihat List Tugas\n 4. Keluar");
             System.out.print("Pilihan :");
             int pilihan = s.nextInt();s.nextLine();
+
             if (pilihan == 1) {
                 System.out.print("Mata Kuliah :");
                 String matkul = s.nextLine();
@@ -49,5 +50,6 @@ public class Main {
                 break;
             }
         }
+        s.close();
     }
 }
